@@ -72,7 +72,7 @@ const SettingsBox = styled.div`
 `;
 
 const SettingsContainer = styled.div`
-    width: min(100% - 0.25rem, 500px);
+    width: min(100% - 1rem, 500px);
     background-color: ${props => props.theme.primary.main};
     padding: 60px 40px;
     border-radius: 16px;
