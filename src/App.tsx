@@ -49,7 +49,7 @@ const App = () => {
         <div style={{backgroundColor: passwordStrength === 'easy' ? theme.error.main : passwordStrength === 'medium' ? theme.warning.main : theme.success.main}}></div>
         <section>
           {showModal ? <SettingsModal formstate={formstate} setFormstate={setFormstate} closeModal={closeModal} /> : null}
-          <span onClick={e => setShowModal(() => true)}>
+          <span onClick={_ => setShowModal(() => true)}>
             <MdSettings />
           </span>
           <h2>Sign Up</h2>
